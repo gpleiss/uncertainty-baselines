@@ -42,7 +42,7 @@ The [`ub.datasets`](https://github.com/google/uncertainty-baselines/tree/master/
 datasets following the `tf.data.Dataset` API. Typically, they add minimal logic
 on top of TensorFlow Datasets such as default data preprocessing. Access it as:
 
-```python
+```python DO NOT SUBMIT update
 dataset_builder = ub.datasets.Cifar10Dataset(
     batch_size=FLAGS.batch_size,
     eval_batch_size=FLAGS.eval_batch_size,
